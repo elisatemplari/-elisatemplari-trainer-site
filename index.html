@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ELISATEMPLARI_TRAINER</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header.hero {
+      background: linear-gradient(to right, #ff914d, #6fcf97);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .cta {
+      background: white;
+      color: #ff914d;
+      border: 2px solid white;
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #ff914d;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f7f7f7;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    form {
+      text-align: center;
+    }
+    input, textarea, button {
+      margin: 10px;
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    button.cta {
+      background: #6fcf97;
+      color: white;
+      border: none;
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .downloads {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .downloads a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #ff914d;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Allenati ovunque. Ritrova la tua energia.</h1>
+    <p>Coaching personalizzato, programmi scaricabili e lezioni live</p>
+    <a href="#offerta" class="cta">Inizia ora</a>
+  </header>
+
+  <section class="section" id="servizi">
+    <h2>Cosa posso fare per te</h2>
+    <div class="grid">
+      <div class="card"><h3>Coaching 1:1</h3><p>Allenamenti su misura + supporto diretto</p></div>
+      <div class="card"><h3>Video + Schede</h3><p>Allenamenti guidati da seguire dove e quando vuoi</p></div>
+      <div class="card"><h3>Programmi scaricabili</h3><p>PDF + routine accessibili offline</p></div>
+      <div class="card"><h3>Lezioni Live</h3><p>Allenamenti dal vivo in gruppo o individuali</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="offerta">
+    <h2>Offerta gratuita</h2>
+    <p>Scarica GRATIS i programmi settimanali e il Restart 5!</p>
+    <div class="downloads">
+      <a href="RESTART5_Programma.pdf" target="_blank">Download Restart 5</a>
+      <a href="PROGRAMMI_SETTIMANALI.pdf" target="_blank">Download 3 Programmi Settimanali</a>
+    </div>
+  </section>
+
+  <section class="section" id="chi-sono">
+    <h2>Chi sono</h2>
+    <p>Sono Elisa, personal trainer certificata. Ti aiuto a costruire una relazione sana con il movimento, per sentirti forte e centrata anche se parti da zero.</p>
+    <div class="gallery">
+      <img src="IMG_8367.jpeg" alt="Elisa allena con manubrio su panca">
+      <img src="IMG_8373.jpeg" alt="Elisa con battle rope">
+      <img src="IMG_8361.jpeg" alt="Elisa con manubrio in posa">
+    </div>
+  </section>
+
+  <section class="section" id="contatti">
+    <h2>Contattami</h2>
+    <p>Hai domande o vuoi iniziare subito il tuo percorso? Scrivimi!</p>
+    <form>
+      <input type="text" placeholder="Il tuo nome" required />
+      <input type="email" placeholder="La tua email" required />
+      <textarea placeholder="Il tuo messaggio" rows="5"></textarea>
+      <button type="submit" class="cta">Invia</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Seguimi su <a href="https://instagram.com/elisatemplari" target="_blank">Instagram</a> e <a href="https://tiktok.com/@elisatemplari" target="_blank">TikTok</a> — © 2025 ELISATEMPLARI_TRAINER</p>
+    <p>Email: info@elisatemplari.it</p>
+  </footer>
+</body>
+</html>
